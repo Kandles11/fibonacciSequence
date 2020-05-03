@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>fibonacciSequence</title>
+    <script src="index.js"></script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
       </style> 
@@ -13,10 +14,14 @@
       <h1>fibonacciSequence</h1>
     </div>
     <div>
-      <h3>find a Fibonacci sequence under:</h3>
-      <form>
-
+      <h3>find the Fibonacci sequence that is this long:</h3>
+      <form onsubmit="startNumbers()">
+        <input type="text" id="numberInput">
+        <input type="submit" value="Submit">
       </form>
+    </div>
+    <div class="numberSequence" id="numberSequence" style="padding: 25px 0px 0px 0px;">
+
     </div>
   </body>
 </html>

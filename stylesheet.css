@@ -6,6 +6,9 @@ body{
   color-scheme: light dark;
 }
 
+.numberSequence{
+  width:75%
+}
 
 
 @media (prefers-color-scheme: dark) {
