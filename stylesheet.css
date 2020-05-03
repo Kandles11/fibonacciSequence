@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-text: center;
   font-family: 'Open Sans', sans-serif;
   color-scheme: light dark;
 }
